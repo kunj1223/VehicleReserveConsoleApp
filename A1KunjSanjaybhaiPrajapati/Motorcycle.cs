@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace A1KunjSanjaybhaiPrajapati
 {
-    public class Car : Vehicle
+    public class Motorcycle : Vehicle
     {
-        
 
-        public Car(int id, string name, double rentalPrice, bool isReserved, string type, string category) : base(id, name, rentalPrice, isReserved, type, category)
+        public Motorcycle(int id, string name, double rentalPrice, bool isReserved,string type, string category) : base(id,name,rentalPrice,isReserved,type,category) 
         {
-
+           
         }
 
     }
